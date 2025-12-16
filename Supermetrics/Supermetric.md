@@ -42,7 +42,7 @@
 })
 </p>
 
-#### VM VM Service Level Indicator
+#### VM Service Level Indicator
 <p>
 100 - ( {
 ‌This Resource: 
