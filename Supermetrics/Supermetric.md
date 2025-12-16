@@ -1,6 +1,6 @@
 #### Use Case: User want to notify if the VM has reboot
 
-<p>count(${this, metric=summary|guesttoolsRunningStatus, where=(!($value contains 'Not >Running'))}) != 0 ? (${this, metric=sys|osUptime_latest}) : 0 </p>
+`count(${this, metric=summary|guesttoolsRunningStatus, where=(!($value contains 'Not >Running'))}) != 0 ? (${this, metric=sys|osUptime_latest}) : 0 `
 
 #### Use Case: Detect VM Hang
 
