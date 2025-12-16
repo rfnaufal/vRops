@@ -98,5 +98,3 @@
 ‌cpu|corecount_provisioned
 }
 `
-
-Reference: https://blogs.vmware.com/cloud-foundation/2020/09/15/my-top-15-vrealize-operations-super-metrics/
